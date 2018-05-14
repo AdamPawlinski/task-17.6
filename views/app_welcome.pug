@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title="login site"
+  body(width="800px",margin="50px auto",font-family="Helvetica sans-serif")
+    header.description Welcome to cook recipes app. The place to find all kind of ways to prepare your meals poperly and share it to others. Please login to enter your account or use your google account.
+    div.login(margin-top="50px")
+      label type your name and password
+        input#name(type="text",placeholder="your name")
+        input#password(type="password",placeholder="password")
+        input#password(type="submit",name="login",value="login")
+    div.signup(margin-top="50px")
+      label If you have google account you can use it
+        input#google(type="submit",name="login by google account",value="login by google account")
