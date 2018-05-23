@@ -7,7 +7,7 @@ app.get('/', function(req, res) {
   res.render('./app_welcome');
 });
 
-app.get('/login', function(req, res) {
+app.get('/auth/google', function(req, res) {
   res.render('./content');
 });
 
